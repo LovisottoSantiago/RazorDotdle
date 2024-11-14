@@ -1,0 +1,74 @@
+[
+    {
+        "word": "array",
+        "description": "A collection of items stored at contiguous memory locations."
+    },
+    {
+        "word": "cache",
+        "description": "A small, fast storage layer that holds frequently accessed data."
+    },
+    {
+        "word": "cloud",
+        "description": "A network of servers to store, manage, and process data remotely."
+    },
+    {
+        "word": "crypt",
+        "description": "A method of securing information through encryption."
+    },
+    {
+        "word": "debug",
+        "description": "The process of finding and fixing errors in code."
+    },
+    {
+        "word": "field",
+        "description": "An attribute or data member in a record or database."
+    },
+    {
+        "word": "frame",
+        "description": "A data structure for organizing web or graphical elements."
+    },
+    {
+        "word": "index",
+        "description": "A data structure that improves the speed of data retrieval."
+    },
+    {
+        "word": "input",
+        "description": "Data provided to a program for processing."
+    },
+    {
+        "word": "logic",
+        "description": "A set of principles used to perform computations or solve problems."
+    },
+    {
+        "word": "macro",
+        "description": "A rule that expands into a set of instructions for automation."
+    },
+    {
+        "word": "parse",
+        "description": "The process of analyzing and interpreting input data."
+    },
+    {
+        "word": "pixel",
+        "description": "The smallest unit of a digital image or display."
+    },
+    {
+        "word": "query",
+        "description": "A request for data or information from a database."
+    },
+    {
+        "word": "stack",
+        "description": "A data structure that operates in a last-in, first-out manner."
+    },
+    {
+        "word": "token",
+        "description": "A single unit of meaningful data in code or language processing."
+    },
+    {
+        "word": "trace",
+        "description": "The process of tracking code execution or events."
+    },
+    {
+        "word": "virus",
+        "description": "Malicious software designed to harm or disrupt systems."
+    }
+]
