@@ -1,0 +1,21 @@
+﻿@page
+@model RazorDotdle.Pages.InputPageModel
+@{
+
+    <h1>Hello there!</h1>
+    <p>Please, enter something: </p>
+    <form method="post">
+        <div>
+            <input type="text" id="userInput" asp-for="InputModel.UserInput"/>
+        </div>
+        <p></p>
+        <button type="submit">Submit</button>
+        <hr />
+    </form>
+
+    @if (Model.InputModel.UserInput != null)
+    {
+        <p>Your word was: @Model.InputModel.UserInput</p>
+    }
+    
+}
