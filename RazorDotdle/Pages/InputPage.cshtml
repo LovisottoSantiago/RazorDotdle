@@ -4,18 +4,53 @@
 
     <h1>Hello there!</h1>
     <p>Please, enter something: </p>
-    <form method="post">
+    <form method="post" id="inputForm">
         <div>
-            <input type="text" id="userInput" asp-for="InputModel.UserInput"/>
+            <input type="text" asp-for="InputModel.UserInput" />
         </div>
-        <p></p>
-        <button type="submit">Submit</button>
-        <hr />
+        <input type="hidden" asp-for="Word" />
+        <input type="hidden" asp-for="Description" />
+        <button type="submit" name="action" value="submit">Submit</button>
+        <button type="submit" name="action" value="reset">Reset</button>
     </form>
 
-    @if (Model.InputModel.UserInput != null)
+    <hr />
+    <p>The original word is: @Model.Word</p>
+    <p>Description: @Model.Description</p>
+
+    @if (!string.IsNullOrEmpty(Model.Input))
     {
-        <p>Your word was: @Model.InputModel.UserInput</p>
+        <p>Your word was: @Model.Input</p>
     }
-    
+
 }
+
+    <style>
+        body {
+            background-color: #9EDF9C;
+        }
+
+        h1, h2 {
+            color: #526E48;
+        }
+
+        #inputForm {
+            padding: 1rem;
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        button {
+            border-radius: 0.5rem;
+            background-color: #526E48;
+            color: #fff;
+            border-color: #62825D;
+        }
+
+    </style>
+
+
+

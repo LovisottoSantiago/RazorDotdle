@@ -1,6 +1,5 @@
 C:\Users\Lovidev\Documents\GitHub\Dotdle\RazorDotdle\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\Lovidev\Documents\GitHub\Dotdle\RazorDotdle\bin\Debug\net9.0\appsettings.json
-C:\Users\Lovidev\Documents\GitHub\Dotdle\RazorDotdle\bin\Debug\net9.0\Levels\5-words.json
 C:\Users\Lovidev\Documents\GitHub\Dotdle\RazorDotdle\bin\Debug\net9.0\RazorDotdle.staticwebassets.runtime.json
 C:\Users\Lovidev\Documents\GitHub\Dotdle\RazorDotdle\bin\Debug\net9.0\RazorDotdle.staticwebassets.endpoints.json
 C:\Users\Lovidev\Documents\GitHub\Dotdle\RazorDotdle\bin\Debug\net9.0\RazorDotdle.exe
@@ -98,3 +97,11 @@ C:\Users\Lovidev\Documents\GitHub\Dotdle\RazorDotdle\obj\Debug\net9.0\refint\Raz
 C:\Users\Lovidev\Documents\GitHub\Dotdle\RazorDotdle\obj\Debug\net9.0\RazorDotdle.pdb
 C:\Users\Lovidev\Documents\GitHub\Dotdle\RazorDotdle\obj\Debug\net9.0\RazorDotdle.genruntimeconfig.cache
 C:\Users\Lovidev\Documents\GitHub\Dotdle\RazorDotdle\obj\Debug\net9.0\ref\RazorDotdle.dll
+C:\Users\Lovidev\Documents\GitHub\Dotdle\RazorDotdle\bin\Debug\net9.0\Aqua.dll
+C:\Users\Lovidev\Documents\GitHub\Dotdle\RazorDotdle\bin\Debug\net9.0\Aqua.Newtonsoft.Json.dll
+C:\Users\Lovidev\Documents\GitHub\Dotdle\RazorDotdle\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\Lovidev\Documents\GitHub\Dotdle\RazorDotdle\bin\Debug\net9.0\Remote.Linq.dll
+C:\Users\Lovidev\Documents\GitHub\Dotdle\RazorDotdle\bin\Debug\net9.0\Remote.Linq.Newtonsoft.Json.dll
+C:\Users\Lovidev\Documents\GitHub\Dotdle\RazorDotdle\obj\Debug\net9.0\RazorDotdle.csproj.AssemblyReference.cache
+C:\Users\Lovidev\Documents\GitHub\Dotdle\RazorDotdle\obj\Debug\net9.0\compressed\y1ihjv2etk-9s4pewkl8g.gz
+C:\Users\Lovidev\Documents\GitHub\Dotdle\RazorDotdle\obj\Debug\net9.0\RazorDot.745AF9E9.Up2Date

@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\Lovidev\\Documents\\GitHub\\Dotdle\\RazorDotdle\\wwwroot\\data\\5-words.json",
+      "PackagePath": "staticwebassets\\data\\5-words.json"
+    },
+    {
       "Id": "C:\\Users\\Lovidev\\Documents\\GitHub\\Dotdle\\RazorDotdle\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
