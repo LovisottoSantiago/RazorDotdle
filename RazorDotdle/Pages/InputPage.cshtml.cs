@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using RazorDotdle.Models;
-using System.Diagnostics;
+using System;
 
 namespace RazorDotdle.Pages {
     public class InputPageModel : PageModel {
@@ -19,47 +19,59 @@ namespace RazorDotdle.Pages {
         [BindProperty]
         public string[] Results { get; set; }
 
+        public bool Next = false;
 
         public void OnGet() {
-            if (Word == null) {
+            if (string.IsNullOrEmpty(Word)) {
                 CreateWord();
             }
         }
 
         public void OnPost(string action) {
-            if (action == "reset") {
-                Word = null;
-                Description = null;
-                CreateWord();
-            }
-            else if (action == "submit") {
+            if (action == "submit") {
                 Input = InputModel.UserInput;
-                try {
-                    if (Input.Length == Word.Length) {
+
+                if (Input.Length == Word.Length) {
+                    try {
                         Results = GameLogic(Word, Input);
-                        bool flag = false;
-                        foreach (var result in Results) {
-                            if (result == "verde") {
-                                flag = true;
-                            }
-                        }
-                        if (flag) {
-                            CreateWord();
+                        bool win = CheckWin(Results);
+
+                        if (win) {
+                            Next = true;
                         }
                     }
+                    catch (Exception ex) {
+                        Console.WriteLine(ex.Message);
+                    }
                 }
-                catch (Exception) {
+                else {
+                    // Handle the case where input length does not match word length
+                }
+            }
+            else if (action == "newgame") {
+                InputModel.UserInput = string.Empty;
+                Results = new string[0];
 
-                }
+                // Generate new word and description
+                CreateWord();
+
+                ModelState.Clear();
             }
         }
 
+
+
+        // Método para generar una palabra aleatoria.
         public void CreateWord() {
             var getWord = new GetWord(5);
             var phrase = getWord.GetRandomWord();
             Word = phrase[0];
             Description = phrase[1];
         }
+
+
+        
+        // Lógica de comparación de palabras: verde (correcto), amarillo (letra en otra posición), gris (incorrecto).
         private string[] GameLogic(string word, string guess) {
             string[] results = new string[word.Length];
             if (guess.Length == word.Length) {
@@ -74,11 +86,21 @@ namespace RazorDotdle.Pages {
                         results[i] = "gris";
                     }
                 }
-            }            
+            }
             else {
-                throw new ArgumentException("Parameter cannot be null");
+                throw new ArgumentException("The input and word lengths do not match.");
             }
             return results;
+        }
+
+
+        private bool CheckWin(string[] array) {
+            foreach (var x in array) {
+                if (x != "verde") {
+                    return false;
+                }
+            }
+            return true;
         }
 
 

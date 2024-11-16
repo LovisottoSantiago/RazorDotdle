@@ -3,20 +3,17 @@
 @{
 
     <h1>Guess the Word!</h1>
-
-    <p>The original word is: @Model.Word</p>
+//    <p>The original word is: @Model.Word</p>
     <p>Description: @Model.Description</p>
     <hr />
 
-    <p>Please, enter something: </p>
     <form method="post" id="inputForm">
         <div>
             <input type="text" asp-for="InputModel.UserInput" class="input-field" maxlength="5" placeholder="Enter your word" />
         </div>
         <input type="hidden" asp-for="Word" />
         <input type="hidden" asp-for="Description" />
-        <button type="submit" name="action" value="submit">Submit</button>
-        <button type="submit" name="action" value="reset">Reset</button>
+        <button type="submit" name="action" value="submit">Enter</button>
     </form>
 
     @if (!string.IsNullOrEmpty(Model.Input))
@@ -29,19 +26,50 @@
                 }
             </section>
         </div>
+    }
 
+    @if (Model.Next == true){
+        <div id="newGameSection">
+            <button type="button" id="newGameButton">New Game</button>
+        </div>
     }
 
 }
 
+@section Scripts {
+    <script>
+        document.getElementById('newGameButton').addEventListener('click', function() {
+            document.querySelector('.input-field').value = '';
+
+            const form = document.getElementById('inputForm');
+            const input = document.createElement('input');
+            input.type = 'hidden';
+            input.name = 'action';
+            input.value = 'newgame';
+            form.appendChild(input);
+            form.submit();
+        });
+    </script>
+}
+
 <style>
+    :root {
+        --bg-color: #121213;
+        --border-color: #3A3A3C;
+        --white-color: #FFFFFF;
+        --green-color: #6AAA64;
+        --yellow-color: #B59F3B;
+        --grey-color: #787C7E;
+    }
+    
+    
     body {
-        background-color: #9EDF9C;
+        background-color: var(--bg-color);
         font-family: "Courier New", Courier, monospace
     }
 
-    h1, h2 {
-        color: #526E48;
+    h1, h2, p {
+        color: var(--white-color);
     }
 
     #inputForm {
@@ -57,7 +85,19 @@
         border-radius: 0.5rem;
         background-color: #526E48;
         color: #fff;
-        border-color: #62825D;
+        border-color: #3A3A3C;
+    }
+
+    div#newGameSection {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 1rem;
+        width: -webkit-fill-available;
+        align-items: center;
+    }
+
+    button#newGameButton {
+        width: 8rem;
     }
 
     input#InputModel_UserInput {
@@ -70,36 +110,48 @@
 
     div#wordSubmitted {
         background-color: #424242;
-        width: fit-content;
         height: auto;
-        border-radius: 25px;
+        border-radius: 15px;
+        border-style: solid;
+        border-width: medium;
+        border-color: var(--border-color);
+        width: fit-content;
         font-size: 3rem;
-        padding: 0.5rem 3rem 0.5rem 3rem;
+        padding: 0.5rem 1rem 0.5rem 1rem;
         font-weight: bold;
-        display: grid;
-        justify-content: center;
+        display: flex;
+        justify-content: space-between;
         align-content: center;
         align-items: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
     }
 
         div#wordSubmitted span {
             font-family: system-ui;
             text-transform: uppercase;
+            padding-left: 1rem;
+            border-style: solid;
+            color: var(--white-color);
+            border-width: medium;
+            border-radius: 1rem;
+            border-color: var(--border-color);
+            padding-right: 1rem;
             display: inline;
             font-weight: bold;
         }
 
 
     .verde {
-        color: #9EDF9C;
+        background-color: var(--green-color);
     }
 
     .amarillo {
-        color: #FCF596;
+        background-color: var(--yellow-color);
     }
 
     .gris {
-        color: #A6AEBF;
+        background-color: var(--grey-color);
     }
 
 </style>
