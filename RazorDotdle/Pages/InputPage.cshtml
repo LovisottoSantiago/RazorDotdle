@@ -21,46 +21,85 @@
 
     @if (!string.IsNullOrEmpty(Model.Input))
     {
-        <p>Your word was: @Model.Input</p>
+        <div id="wordSubmitted">
+            <section>
+                @for (int i = 0; i < Model.Input.Length; i++)
+                {
+                    <span class="letter @Model.Results[i]">@Model.Input[i]</span>
+                }
+            </section>
+        </div>
+
     }
 
 }
 
-    <style>
-        body {
-            background-color: #9EDF9C;
-            font-family: "Courier New", Courier, monospace
+<style>
+    body {
+        background-color: #9EDF9C;
+        font-family: "Courier New", Courier, monospace
+    }
+
+    h1, h2 {
+        color: #526E48;
+    }
+
+    #inputForm {
+        padding: 1rem;
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    button {
+        border-radius: 0.5rem;
+        background-color: #526E48;
+        color: #fff;
+        border-color: #62825D;
+    }
+
+    input#InputModel_UserInput {
+        width: auto;
+        height: 2rem;
+        text-align: center;
+        font-size: large;
+        font-style: normal;
+    }
+
+    div#wordSubmitted {
+        background-color: #424242;
+        width: fit-content;
+        height: auto;
+        border-radius: 25px;
+        font-size: 3rem;
+        padding: 0.5rem 3rem 0.5rem 3rem;
+        font-weight: bold;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+        div#wordSubmitted span {
+            font-family: system-ui;
+            text-transform: uppercase;
+            display: inline;
+            font-weight: bold;
         }
 
-        h1, h2 {
-            color: #526E48;
-        }
 
-        #inputForm {
-            padding: 1rem;
-            display: flex;
-            flex-direction: row;
-            gap: 1rem;
-            justify-content: flex-start;
-            align-items: center;
-        }
+    .verde {
+        color: #9EDF9C;
+    }
 
-        button {
-            border-radius: 0.5rem;
-            background-color: #526E48;
-            color: #fff;
-            border-color: #62825D;
-        }
+    .amarillo {
+        color: #FCF596;
+    }
 
-        input#InputModel_UserInput {
-            width: 5rem;
-            height: 2rem;
-            text-align: center;
-            font-size: large;
-            font-style: normal;
-        }
+    .gris {
+        color: #A6AEBF;
+    }
 
-    </style>
-
-
-
+</style>

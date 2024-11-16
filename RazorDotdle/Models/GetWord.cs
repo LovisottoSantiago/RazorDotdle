@@ -27,8 +27,8 @@ namespace RazorDotdle.Models {
         }
 
         public String[] GetRandomWord() {
-            Random random = new Random();
-            int index = random.Next(0, wordsList.Count);
+            Random random = Random.Shared;
+            int index = random.Next(wordsList.Count);
 
             var randomWord = wordsList[index];
             Word = (string)randomWord["word"];

@@ -18,21 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "InputPage.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Lovidev\\Documents\\GitHub\\Dotdle\\RazorDotdle\\Pages\\InputPage.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\InputPage.cshtml.cs",
-              "ToolTip": "C:\\Users\\Lovidev\\Documents\\GitHub\\Dotdle\\RazorDotdle\\Pages\\InputPage.cshtml.cs",
-              "RelativeToolTip": "Pages\\InputPage.cshtml.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAwwBsAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T11:52:54.227Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -41,9 +28,22 @@
               "RelativeDocumentMoniker": "Pages\\InputPage.cshtml",
               "ToolTip": "C:\\Users\\Lovidev\\Documents\\GitHub\\Dotdle\\RazorDotdle\\Pages\\InputPage.cshtml",
               "RelativeToolTip": "Pages\\InputPage.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-15T20:40:11.874Z",
+              "WhenOpened": "2024-11-16T13:40:23.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InputPage.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Lovidev\\Documents\\GitHub\\Dotdle\\RazorDotdle\\Pages\\InputPage.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\InputPage.cshtml.cs",
+              "ToolTip": "C:\\Users\\Lovidev\\Documents\\GitHub\\Dotdle\\RazorDotdle\\Pages\\InputPage.cshtml.cs",
+              "RelativeToolTip": "Pages\\InputPage.cshtml.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T11:52:54.227Z",
               "EditorCaption": ""
             }
           ]
