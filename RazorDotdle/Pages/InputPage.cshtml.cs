@@ -35,5 +35,23 @@ namespace RazorDotdle.Pages {
             Word = phrase[0];
             Description = phrase[1];
         }
+
+        private string[] GameLogic(string word, string guess) {
+            string[] results = new string[] {};
+            for (int i = 0; i < word.Length; i++) {
+                if (guess[i] == word[i]) {
+                    results[i] = "verde";
+                }
+                else if (word.Contains(guess[i])) {
+                    results[i] = "amarillo";
+                }
+                else {
+                    results[i] = "gris";
+                }
+            }
+            return results;
+        }
+
+
     }
 }

@@ -2,21 +2,22 @@
 @model RazorDotdle.Pages.InputPageModel
 @{
 
-    <h1>Hello there!</h1>
+    <h1>Guess the Word!</h1>
+
+    <p>The original word is: @Model.Word</p>
+    <p>Description: @Model.Description</p>
+    <hr />
+
     <p>Please, enter something: </p>
     <form method="post" id="inputForm">
         <div>
-            <input type="text" asp-for="InputModel.UserInput" />
+            <input type="text" asp-for="InputModel.UserInput" class="input-field" maxlength="5" placeholder="Enter your word" />
         </div>
         <input type="hidden" asp-for="Word" />
         <input type="hidden" asp-for="Description" />
         <button type="submit" name="action" value="submit">Submit</button>
         <button type="submit" name="action" value="reset">Reset</button>
     </form>
-
-    <hr />
-    <p>The original word is: @Model.Word</p>
-    <p>Description: @Model.Description</p>
 
     @if (!string.IsNullOrEmpty(Model.Input))
     {
@@ -28,6 +29,7 @@
     <style>
         body {
             background-color: #9EDF9C;
+            font-family: "Courier New", Courier, monospace
         }
 
         h1, h2 {
@@ -48,6 +50,14 @@
             background-color: #526E48;
             color: #fff;
             border-color: #62825D;
+        }
+
+        input#InputModel_UserInput {
+            width: 5rem;
+            height: 2rem;
+            text-align: center;
+            font-size: large;
+            font-style: normal;
         }
 
     </style>
