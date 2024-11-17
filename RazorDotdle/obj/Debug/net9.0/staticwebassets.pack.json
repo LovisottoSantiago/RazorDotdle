@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\data\\5-words.json"
     },
     {
+      "Id": "C:\\Users\\Lovidev\\Documents\\GitHub\\Dotdle\\RazorDotdle\\wwwroot\\data\\Dotdle.net.png",
+      "PackagePath": "staticwebassets\\data\\Dotdle.net.png"
+    },
+    {
       "Id": "C:\\Users\\Lovidev\\Documents\\GitHub\\Dotdle\\RazorDotdle\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },

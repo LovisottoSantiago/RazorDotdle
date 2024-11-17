@@ -897,6 +897,88 @@
       ]
     },
     {
+      "Route": "data/Dotdle.net.f0a9rp2ab6.png",
+      "AssetFile": "data/Dotdle.net.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15295"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EcZb0aT39guKh9E13t/t6sJwbRRgGXXCTAwdOUgAngM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 17 Nov 2024 14:56:13 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f0a9rp2ab6"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EcZb0aT39guKh9E13t/t6sJwbRRgGXXCTAwdOUgAngM="
+        },
+        {
+          "Name": "label",
+          "Value": "data/Dotdle.net.png"
+        }
+      ]
+    },
+    {
+      "Route": "data/Dotdle.net.png",
+      "AssetFile": "data/Dotdle.net.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15295"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EcZb0aT39guKh9E13t/t6sJwbRRgGXXCTAwdOUgAngM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 17 Nov 2024 14:56:13 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EcZb0aT39guKh9E13t/t6sJwbRRgGXXCTAwdOUgAngM="
+        }
+      ]
+    },
+    {
       "Route": "favicon.61n19gt1b8.ico",
       "AssetFile": "favicon.ico.gz",
       "Selectors": [

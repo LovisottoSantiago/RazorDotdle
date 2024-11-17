@@ -1,6 +1,21 @@
 ﻿@page
 @model RazorDotdle.Pages.InputPageModel
 @{
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    </head>
+
+    <div id="MainContainer">
+        <section id="MainGrid">
+            <img id="dotdle-png" src="~/data/Dotdle.net.png" alt="Title PNG">
+            <img id="left-square" src="~/data/Square.png" alt="Left Square">
+            <img id="right-square" src="~/data/Square.png" alt="Right Square">
+            <img id="leftB-square" src="~/data/Square.png" alt="LeftB Square">
+            <img id="rightB-square" src="~/data/Square.png" alt="RightB Square">
+        </section>
+    
+    </div>
+
 
     <h1>Guess the Word!</h1>
 //    <p>The original word is: @Model.Word</p>
@@ -64,12 +79,78 @@
     
     
     body {
-        background-color: var(--bg-color);
-        font-family: "Courier New", Courier, monospace
+        background-image: linear-gradient(180deg, #8BFF68, #04A409);
+        font-family: 'Poppins';
+        font-size: 22px;
+        margin: 0;
     }
 
     h1, h2, p {
         color: var(--white-color);
+    }
+
+    div#MainContainer {
+        display: grid;
+        width: 100%;
+        height: 85vh;
+        background-color: #aaa;
+    }
+
+    section#MainGrid {
+        background-color: #fff;
+        width: 75%;
+        height: 30rem;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        outline-style: solid;
+        outline-color: #000000;
+        outline-width: 0.7rem;
+        position: relative;
+    }
+
+
+    img#dotdle-png {
+        z-index: 99999;
+        position: absolute;
+        width: 75%;
+        margin: auto;
+        margin-top: -8px;
+    }
+
+    img#left-square {
+        z-index: 99999;
+        position: absolute;
+        width: 35px;
+        left: calc((-35px / 2) - 0.7rem / 2);
+        top: -21px;
+    }    
+    
+    img#right-square {
+        z-index: 99999;
+        position: absolute;
+        width: 35px;
+        right: calc((-35px / 2) - 0.7rem / 2);
+        top: -21px;
+    }    
+    
+    img#leftB-square {
+        z-index: 99999;
+        position: absolute;
+        width: 35px;
+        left: calc((-35px / 2) - 0.7rem / 2);
+        bottom: -21px;
+    }    
+    
+    img#rightB-square {
+        z-index: 99999;
+        position: absolute;
+        width: 35px;
+        right: calc((-35px / 2) - 0.7rem / 2);
+        bottom: -21px;
     }
 
     #inputForm {
