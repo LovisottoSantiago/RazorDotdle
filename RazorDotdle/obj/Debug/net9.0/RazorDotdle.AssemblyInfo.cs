@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RazorDotdle")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ae7b797227fcd5c5b70d2f05956e70c3454ea7f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+220e550d46c251f2be99e94e334eb6787035e7a1")]
 [assembly: System.Reflection.AssemblyProductAttribute("RazorDotdle")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RazorDotdle")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

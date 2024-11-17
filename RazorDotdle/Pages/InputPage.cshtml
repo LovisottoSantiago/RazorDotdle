@@ -5,6 +5,13 @@
         <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     </head>
 
+    <img id="cloudA" src="~/data/Cloud.png" alt="CloudA">
+    <img id="cloudB" src="~/data/Cloud.png" alt="CloudB">
+    <img id="cloudC" src="~/data/Cloud.png" alt="CloudC">
+    <img id="cloudD" src="~/data/Cloud.png" alt="CloudD">
+    <img id="cloudE" src="~/data/Cloud.png" alt="CloudE">
+    <img id="cloudF" src="~/data/Cloud.png" alt="CloudF">
+
     <div id="MainContainer">
         <section id="MainGrid">
             <img id="dotdle-png" src="~/data/Dotdle.net.png" alt="Title PNG">
@@ -12,42 +19,63 @@
             <img id="right-square" src="~/data/Square.png" alt="Right Square">
             <img id="leftB-square" src="~/data/Square.png" alt="LeftB Square">
             <img id="rightB-square" src="~/data/Square.png" alt="RightB Square">
+
+            <section id="Game">            
+
+                <div id="wordDescription">
+                    <p>@Model.Description</p>
+                </div>
+                
+
+                <hr id="hrSeparator" />
+
+                <form method="post" id="inputForm">
+                    <div>
+                        <input type="text" asp-for="InputModel.UserInput" class="input-field" maxlength="5" placeholder="Enter your word" autocomplete="off" />
+                    </div>
+                    <input type="hidden" asp-for="Word" />
+                    <input type="hidden" asp-for="Description" />
+                    <button type="submit" name="action" value="submit">Enter</button>
+                </form>
+
+
+                <div id="wordSubmitted">
+                    <section id="wordsRow">
+
+                        @if (!string.IsNullOrEmpty(Model.Input) && (Model.Input.Length) == 5)
+                        {                    
+                                    @for (int i = 0; i < Model.Input.Length; i++)
+                                    {
+                                        <span class="letter @Model.Results[i]">@Model.Input[i]</span>
+                                    }
+
+                        }
+                        else {
+                            <div id="inputExample">
+                                <span class="letter">Your answer</span>                            
+                            </div>
+                        }
+
+                    </section>        
+                            
+                    <div id="newGameSection">
+                        <button type="button" id="newGameButton">↺</button>
+                    </div>
+                </div>
+
+
+
+
+
+            </section>
+
         </section>
     
     </div>
 
 
-    <h1>Guess the Word!</h1>
-//    <p>The original word is: @Model.Word</p>
-    <p>Description: @Model.Description</p>
-    <hr />
 
-    <form method="post" id="inputForm">
-        <div>
-            <input type="text" asp-for="InputModel.UserInput" class="input-field" maxlength="5" placeholder="Enter your word" />
-        </div>
-        <input type="hidden" asp-for="Word" />
-        <input type="hidden" asp-for="Description" />
-        <button type="submit" name="action" value="submit">Enter</button>
-    </form>
 
-    @if (!string.IsNullOrEmpty(Model.Input))
-    {
-        <div id="wordSubmitted">
-            <section>
-                @for (int i = 0; i < Model.Input.Length; i++)
-                {
-                    <span class="letter @Model.Results[i]">@Model.Input[i]</span>
-                }
-            </section>
-        </div>
-    }
-
-    @if (Model.Next == true){
-        <div id="newGameSection">
-            <button type="button" id="newGameButton">New Game</button>
-        </div>
-    }
 
 }
 
@@ -63,7 +91,9 @@
             input.value = 'newgame';
             form.appendChild(input);
             form.submit();
+
         });
+
     </script>
 }
 
@@ -86,14 +116,27 @@
     }
 
     h1, h2, p {
-        color: var(--white-color);
+        color: #000000;
+    }
+
+    hr#hrSeparator {
+        width: 100%;
+        border: 1px solid black;
+    }
+
+    div#wordDescription {
+        box-sizing: border-box;
+        margin-top: 10px;
+        margin-left: 1rem;
+        margin-bottom: -10px;
+        max-width: 30rem;
     }
 
     div#MainContainer {
         display: grid;
         width: 100%;
         height: 85vh;
-        background-color: #aaa;
+        margin-bottom: 5rem;
     }
 
     section#MainGrid {
@@ -111,7 +154,6 @@
         outline-width: 0.7rem;
         position: relative;
     }
-
 
     img#dotdle-png {
         z-index: 99999;
@@ -153,6 +195,68 @@
         bottom: -21px;
     }
 
+    img#cloudA {
+        z-index: -1;
+        position: absolute;
+        left: -7%;
+        rotate: 60deg;
+        top: 50%;
+    }    
+    
+    img#cloudB {
+        z-index: -1;
+        position: absolute;
+        rotate: 195deg;
+        width: 10%;
+        top: -5%;
+    }   
+    
+    img#cloudC {
+        z-index: -1;
+        position: absolute;
+        right: -7%;
+        rotate: 170deg;
+        width: 15%;
+        top: 20%;
+    }    
+    img#cloudD {
+        z-index: -1;
+        position: absolute;
+        right: 50%;
+        rotate: 320deg;
+        top: 5%;
+        width: 9%;
+    }    
+    img#cloudE {
+        z-index: -1;
+        position: absolute;
+        right: 8%;
+        rotate: 317deg;
+        top: 60%;
+        width: 11%;
+    }   
+    
+    img#cloudF {
+        z-index: -1;
+        position: absolute;
+        left: 60%;
+        rotate: 60deg;
+        bottom: 11%;
+        width: 7%;
+    }    
+
+
+    section#Game {
+        margin-top: 7rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+
     #inputForm {
         padding: 1rem;
         display: flex;
@@ -163,64 +267,90 @@
     }
 
     button {
-        border-radius: 0.5rem;
-        background-color: #526E48;
-        color: #fff;
+        background-color: #FF890D;
         border-color: #3A3A3C;
+        height: 2.5rem;
     }
 
     div#newGameSection {
-        display: flex;
-        justify-content: flex-start;
-        margin-top: 1rem;
-        width: -webkit-fill-available;
-        align-items: center;
+        width: 1rem;
     }
 
     button#newGameButton {
-        width: 8rem;
+        width: 3rem;
+        text-align: center;
+        display: grid;
+        align-content: center;
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
     }
 
     input#InputModel_UserInput {
-        width: auto;
-        height: 2rem;
+        width: 20rem;
+        height: 2.5rem;
         text-align: center;
         font-size: large;
+        border-style: solid;
+        border-color: black;
         font-style: normal;
     }
 
     div#wordSubmitted {
-        background-color: #424242;
-        height: auto;
-        border-radius: 15px;
-        border-style: solid;
-        border-width: medium;
-        border-color: var(--border-color);
-        width: fit-content;
-        font-size: 3rem;
-        padding: 0.5rem 1rem 0.5rem 1rem;
+        height: 5rem;
+        /* border-style: solid; */
+        /* border-color: black; */
+        width: 31.5rem;
+        font-size: 2rem;
         font-weight: bold;
         display: flex;
-        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        margin-left: 1rem;
+        gap: 0.5rem;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    section#wordsRow {
+        display: flex;
+        flex-wrap: nowrap;
         align-content: center;
         align-items: center;
         flex-direction: row;
-        flex-wrap: nowrap;
+        gap: 0.5rem;
+        width: 22rem;
+        padding: 0.5rem;
+        /* outline-color: black; */
+        /* outline: solid; */
+        border-color: black;
+        border-style: solid;
+        justify-content: center;
     }
 
-        div#wordSubmitted span {
-            font-family: system-ui;
-            text-transform: uppercase;
-            padding-left: 1rem;
-            border-style: solid;
-            color: var(--white-color);
-            border-width: medium;
-            border-radius: 1rem;
-            border-color: var(--border-color);
-            padding-right: 1rem;
-            display: inline;
-            font-weight: bold;
-        }
+    div#inputExample {
+        /* color: black; */
+        display: grid;
+        background-color: black;
+        width: -webkit-fill-available;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+    }
+
+    div#wordSubmitted span {
+        text-transform: uppercase;
+        padding-left: 1rem;
+        border-style: solid;
+        color: var(--white-color);
+        border-width: medium;
+        border-color: black;
+        padding-right: 1rem;
+        display: inline;
+        font-weight: bold;
+    }
 
 
     .verde {

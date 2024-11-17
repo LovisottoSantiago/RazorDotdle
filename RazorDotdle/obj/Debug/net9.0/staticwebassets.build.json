@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+5gfdK9C1h9K2K5LuT5pCD7JlpqoV2wor0tm5p4GsoY=",
+  "Hash": "97ggX/1T6zSO7fd/xKwcYLenEiHE1xR1pIrTMalpQsE=",
   "Source": "RazorDotdle",
   "BasePath": "_content/RazorDotdle",
   "Mode": "Default",
@@ -1466,6 +1466,27 @@
       "OriginalItemSpec": "wwwroot\\data\\5-words.json"
     },
     {
+      "Identity": "C:\\Users\\Lovidev\\Documents\\GitHub\\Dotdle\\RazorDotdle\\wwwroot\\data\\Cloud.png",
+      "SourceId": "RazorDotdle",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lovidev\\Documents\\GitHub\\Dotdle\\RazorDotdle\\wwwroot\\",
+      "BasePath": "_content/RazorDotdle",
+      "RelativePath": "data/Cloud#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dophn250sp",
+      "Integrity": "w1TFnxeChaGm9lKjn8CRelKHzKb+GULEHDbeBiK5tqk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\data\\Cloud.png"
+    },
+    {
       "Identity": "C:\\Users\\Lovidev\\Documents\\GitHub\\Dotdle\\RazorDotdle\\wwwroot\\data\\Dotdle.net.png",
       "SourceId": "RazorDotdle",
       "SourceType": "Discovered",
@@ -1485,6 +1506,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\data\\Dotdle.net.png"
+    },
+    {
+      "Identity": "C:\\Users\\Lovidev\\Documents\\GitHub\\Dotdle\\RazorDotdle\\wwwroot\\data\\Square.png",
+      "SourceId": "RazorDotdle",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lovidev\\Documents\\GitHub\\Dotdle\\RazorDotdle\\wwwroot\\",
+      "BasePath": "_content/RazorDotdle",
+      "RelativePath": "data/Square#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fvgryymof5",
+      "Integrity": "KxgpZlMlIRIP8Hz/RD805hr1I1RatzSfr4oC8J3QhRY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\data\\Square.png"
     },
     {
       "Identity": "C:\\Users\\Lovidev\\Documents\\GitHub\\Dotdle\\RazorDotdle\\wwwroot\\favicon.ico",
@@ -3387,6 +3429,88 @@
       ]
     },
     {
+      "Route": "data/Cloud.dophn250sp.png",
+      "AssetFile": "C:\\Users\\Lovidev\\Documents\\GitHub\\Dotdle\\RazorDotdle\\wwwroot\\data\\Cloud.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5865"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w1TFnxeChaGm9lKjn8CRelKHzKb+GULEHDbeBiK5tqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 17 Nov 2024 18:05:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dophn250sp"
+        },
+        {
+          "Name": "label",
+          "Value": "data/Cloud.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-w1TFnxeChaGm9lKjn8CRelKHzKb+GULEHDbeBiK5tqk="
+        }
+      ]
+    },
+    {
+      "Route": "data/Cloud.png",
+      "AssetFile": "C:\\Users\\Lovidev\\Documents\\GitHub\\Dotdle\\RazorDotdle\\wwwroot\\data\\Cloud.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5865"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w1TFnxeChaGm9lKjn8CRelKHzKb+GULEHDbeBiK5tqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 17 Nov 2024 18:05:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-w1TFnxeChaGm9lKjn8CRelKHzKb+GULEHDbeBiK5tqk="
+        }
+      ]
+    },
+    {
       "Route": "data/Dotdle.net.f0a9rp2ab6.png",
       "AssetFile": "C:\\Users\\Lovidev\\Documents\\GitHub\\Dotdle\\RazorDotdle\\wwwroot\\data\\Dotdle.net.png",
       "Selectors": [],
@@ -3465,6 +3589,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-EcZb0aT39guKh9E13t/t6sJwbRRgGXXCTAwdOUgAngM="
+        }
+      ]
+    },
+    {
+      "Route": "data/Square.fvgryymof5.png",
+      "AssetFile": "C:\\Users\\Lovidev\\Documents\\GitHub\\Dotdle\\RazorDotdle\\wwwroot\\data\\Square.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "202"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KxgpZlMlIRIP8Hz/RD805hr1I1RatzSfr4oC8J3QhRY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 17 Nov 2024 15:26:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fvgryymof5"
+        },
+        {
+          "Name": "label",
+          "Value": "data/Square.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KxgpZlMlIRIP8Hz/RD805hr1I1RatzSfr4oC8J3QhRY="
+        }
+      ]
+    },
+    {
+      "Route": "data/Square.png",
+      "AssetFile": "C:\\Users\\Lovidev\\Documents\\GitHub\\Dotdle\\RazorDotdle\\wwwroot\\data\\Square.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "202"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KxgpZlMlIRIP8Hz/RD805hr1I1RatzSfr4oC8J3QhRY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 17 Nov 2024 15:26:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KxgpZlMlIRIP8Hz/RD805hr1I1RatzSfr4oC8J3QhRY="
         }
       ]
     },

@@ -63,7 +63,9 @@ C:\Users\Lovidev\Documents\GitHub\Dotdle\RazorDotdle\wwwroot\lib\bootstrap\dist\
 C:\Users\Lovidev\Documents\GitHub\Dotdle\RazorDotdle\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
 wwwroot\css\site.css
 wwwroot\data\5-words.json
+wwwroot\data\Cloud.png
 wwwroot\data\Dotdle.net.png
+wwwroot\data\Square.png
 wwwroot\favicon.ico
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
