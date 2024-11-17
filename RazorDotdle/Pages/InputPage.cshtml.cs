@@ -29,6 +29,12 @@ namespace RazorDotdle.Pages {
 
         public void OnPost(string action) {
             if (action == "submit") {
+
+                if (string.IsNullOrEmpty(InputModel.UserInput)) {
+                    Console.WriteLine("Input cannot be null or empty.");
+                    return; 
+                }
+                
                 Input = InputModel.UserInput;
 
                 if (Input.Length == Word.Length) {
@@ -45,7 +51,7 @@ namespace RazorDotdle.Pages {
                     }
                 }
                 else {
-                    // Handle the case where input length does not match word length
+                    
                 }
             }
             else if (action == "newgame") {
