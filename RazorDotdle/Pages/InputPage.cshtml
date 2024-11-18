@@ -3,6 +3,7 @@
 @{
     <head>
         <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <img id="cloudA" src="~/data/Cloud.png" alt="CloudA">
@@ -63,11 +64,13 @@
                     </div>
                 </div>
 
-
-
-
-
             </section>
+
+            <div id="links">
+                <a id="linksButton" href="https://github.com/LovisottoSantiago/Dotdle" target="_blank">GitHub <i class="fa fa-github"></i></a>
+                <a id="linksButton" href="https://github.com/LovisottoSantiago" target="_blank">My Portfolio <i class="fa fa-briefcase"></i></a>
+                <a id="linksButton" href="https://github.com/LovisottoSantiago/Dotdle/blob/main/RazorDotdle/wwwroot/data/5-words.json" target="_blank">Add words <i class="fa fa-pencil-square-o"></i></a>
+            </div>
 
         </section>
     
@@ -91,8 +94,9 @@
             input.value = 'newgame';
             form.appendChild(input);
             form.submit();
-
         });
+
+        
 
     </script>
 }
@@ -113,6 +117,9 @@
         font-family: 'Poppins';
         font-size: 22px;
         margin: 0;
+        max-width: 100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
     }
 
     h1, h2, p {
@@ -130,13 +137,14 @@
         margin-left: 1rem;
         margin-bottom: -10px;
         max-width: 30rem;
+        height: 5rem;
     }
 
     div#MainContainer {
         display: grid;
         width: 100%;
         height: 85vh;
-        margin-bottom: 5rem;
+        margin-top: 3rem;
     }
 
     section#MainGrid {
@@ -243,7 +251,7 @@
         position: absolute;
         left: 60%;
         rotate: 60deg;
-        bottom: 11%;
+        bottom: 5%;
         width: 7%;
     }    
 
@@ -359,6 +367,30 @@
         font-weight: bold;
     }
 
+    div#links {
+        margin-top: 1.8rem;
+        display: flex;
+        gap: 1rem;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+
+    a#linksButton {
+        background-color: #FF890D;
+        border-color: #000000;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        height: 2.5rem;
+        color: black;
+        text-decoration: none;
+        border-style: solid;
+        box-shadow: 6px 6px black;
+    }
+
+    a#linksButton:hover {
+        background-color: #04A409;
+        color: white;
+    }
 
     .verde {
         background-color: var(--green-color);

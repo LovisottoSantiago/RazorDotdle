@@ -19,8 +19,6 @@ namespace RazorDotdle.Pages {
         [BindProperty]
         public string[] Results { get; set; }
 
-        public bool Next = false;
-
         public void OnGet() {
             if (string.IsNullOrEmpty(Word)) {
                 CreateWord();
@@ -42,9 +40,6 @@ namespace RazorDotdle.Pages {
                         Results = GameLogic(Word, Input);
                         bool win = CheckWin(Results);
 
-                        if (win) {
-                            Next = true;
-                        }
                     }
                     catch (Exception ex) {
                         Console.WriteLine(ex.Message);

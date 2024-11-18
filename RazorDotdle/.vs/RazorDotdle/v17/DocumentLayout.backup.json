@@ -9,6 +9,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{4218C815-4649-43B3-979B-F2E31A95CEDB}|RazorDotdle.csproj|c:\\users\\lovidev\\documents\\github\\dotdle\\razordotdle\\pages\\inputpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4218C815-4649-43B3-979B-F2E31A95CEDB}|RazorDotdle.csproj|solutionrelative:pages\\inputpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4218C815-4649-43B3-979B-F2E31A95CEDB}|RazorDotdle.csproj|c:\\users\\lovidev\\documents\\github\\dotdle\\razordotdle\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4218C815-4649-43B3-979B-F2E31A95CEDB}|RazorDotdle.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +22,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lovidev\\Documents\\GitHub\\Dotdle\\RazorDotdle\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Lovidev\\Documents\\GitHub\\Dotdle\\RazorDotdle\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T22:32:18.438Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,7 +44,7 @@
               "RelativeDocumentMoniker": "Pages\\InputPage.cshtml.cs",
               "ToolTip": "C:\\Users\\Lovidev\\Documents\\GitHub\\Dotdle\\RazorDotdle\\Pages\\InputPage.cshtml.cs",
               "RelativeToolTip": "Pages\\InputPage.cshtml.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAIA5wCUAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T18:58:17.942Z",
               "EditorCaption": ""
@@ -41,7 +57,7 @@
               "RelativeDocumentMoniker": "Pages\\InputPage.cshtml",
               "ToolTip": "C:\\Users\\Lovidev\\Documents\\GitHub\\Dotdle\\RazorDotdle\\Pages\\InputPage.cshtml",
               "RelativeToolTip": "Pages\\InputPage.cshtml",
-              "ViewState": "AgIAAJMAAAAAAAAAAAApwKEAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-16T13:40:23.755Z",
               "EditorCaption": ""
