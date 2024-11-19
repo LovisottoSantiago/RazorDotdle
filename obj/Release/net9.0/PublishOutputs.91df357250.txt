@@ -1,0 +1,12 @@
+C:\Users\Lovidev\Documents\GitHub\RazorDotdle\bin\Release\net9.0\publish\RazorDotdle.exe
+C:\Users\Lovidev\Documents\GitHub\RazorDotdle\bin\Release\net9.0\publish\appsettings.Development.json
+C:\Users\Lovidev\Documents\GitHub\RazorDotdle\bin\Release\net9.0\publish\appsettings.json
+C:\Users\Lovidev\Documents\GitHub\RazorDotdle\bin\Release\net9.0\publish\RazorDotdle.dll
+C:\Users\Lovidev\Documents\GitHub\RazorDotdle\bin\Release\net9.0\publish\RazorDotdle.deps.json
+C:\Users\Lovidev\Documents\GitHub\RazorDotdle\bin\Release\net9.0\publish\RazorDotdle.runtimeconfig.json
+C:\Users\Lovidev\Documents\GitHub\RazorDotdle\bin\Release\net9.0\publish\RazorDotdle.pdb
+C:\Users\Lovidev\Documents\GitHub\RazorDotdle\bin\Release\net9.0\publish\Aqua.dll
+C:\Users\Lovidev\Documents\GitHub\RazorDotdle\bin\Release\net9.0\publish\Aqua.Newtonsoft.Json.dll
+C:\Users\Lovidev\Documents\GitHub\RazorDotdle\bin\Release\net9.0\publish\Newtonsoft.Json.dll
+C:\Users\Lovidev\Documents\GitHub\RazorDotdle\bin\Release\net9.0\publish\Remote.Linq.dll
+C:\Users\Lovidev\Documents\GitHub\RazorDotdle\bin\Release\net9.0\publish\Remote.Linq.Newtonsoft.Json.dll
