@@ -1,10 +1,411 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <img id="cloudA" src="~/data/Cloud.png" alt="CloudA">
+    <img id="cloudB" src="~/data/Cloud.png" alt="CloudB">
+    <img id="cloudC" src="~/data/Cloud.png" alt="CloudC">
+    <img id="cloudD" src="~/data/Cloud.png" alt="CloudD">
+    <img id="cloudE" src="~/data/Cloud.png" alt="CloudE">
+    <img id="cloudF" src="~/data/Cloud.png" alt="CloudF">
+
+    <div id="MainContainer">
+        <section id="MainGrid">
+            <img id="dotdle-png" src="~/data/Dotdle.net.png" alt="Title PNG">
+            <img id="left-square" src="~/data/Square.png" alt="Left Square">
+            <img id="right-square" src="~/data/Square.png" alt="Right Square">
+            <img id="leftB-square" src="~/data/Square.png" alt="LeftB Square">
+            <img id="rightB-square" src="~/data/Square.png" alt="RightB Square">
+
+            <section id="Game">
+
+                <div id="wordDescription">
+                    <p>@Model.Description</p>
+                </div>
+
+
+                <hr id="hrSeparator" />
+
+                <form method="post" id="inputForm">
+                    <div>
+                        <input type="text" asp-for="InputModel.UserInput" class="input-field" maxlength="5" placeholder="Enter your word" autocomplete="off" />
+                    </div>
+                    <input type="hidden" asp-for="Word" />
+                    <input type="hidden" asp-for="Description" />
+                    <button type="submit" name="action" value="submit">Enter</button>
+                </form>
+
+
+                <div id="wordSubmitted">
+                    <section id="wordsRow">
+
+                        @if (!string.IsNullOrEmpty(Model.Input) && (Model.Input.Length) == 5)
+                        {
+                            @for (int i = 0; i < Model.Input.Length; i++)
+                            {
+                                <span class="letter @Model.Results[i]">@Model.Input[i]</span>
+                            }
+
+                        }
+                        else
+                        {
+                            <div id="inputExample">
+                                <span class="letter">Your answer</span>
+                            </div>
+                        }
+
+                    </section>
+
+                    <div id="newGameSection">
+                        <button type="button" id="newGameButton">↺</button>
+                    </div>
+                </div>
+
+            </section>
+
+            <div id="links">
+                <a id="linksButton" href="https://github.com/LovisottoSantiago/Dotdle" target="_blank">GitHub <i class="fa fa-github"></i></a>
+                <a id="linksButton" href="https://github.com/LovisottoSantiago" target="_blank">My Portfolio <i class="fa fa-briefcase"></i></a>
+                <a id="linksButton" href="https://github.com/LovisottoSantiago/Dotdle/blob/main/RazorDotdle/wwwroot/data/5-words.json" target="_blank">Add words <i class="fa fa-pencil-square-o"></i></a>
+            </div>
+
+        </section>
+
+    </div>
+
+
+
+
+
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+@section Scripts {
+    <script>
+        document.getElementById('newGameButton').addEventListener('click', function() {
+            document.querySelector('.input-field').value = '';
+
+            const form = document.getElementById('inputForm');
+            const input = document.createElement('input');
+            input.type = 'hidden';
+            input.name = 'action';
+            input.value = 'newgame';
+            form.appendChild(input);
+            form.submit();
+        });
+
+
+
+    </script>
+}
+
+<style>
+    :root {
+        --bg-color: #121213;
+        --border-color: #3A3A3C;
+        --white-color: #FFFFFF;
+        --green-color: #6AAA64;
+        --yellow-color: #B59F3B;
+        --grey-color: #787C7E;
+    }
+
+
+    body {
+        background-image: linear-gradient(180deg, #8BFF68, #04A409);
+        font-family: 'Poppins';
+        font-size: 22px;
+        margin: 0;
+        max-width: 100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    h1, h2, p {
+        color: #000000;
+    }
+
+    hr#hrSeparator {
+        width: 100%;
+        border: 1px solid black;
+    }
+
+    div#wordDescription {
+        box-sizing: border-box;
+        margin-top: 10px;
+        margin-left: 1rem;
+        margin-bottom: -10px;
+        max-width: 30rem;
+        height: 5rem;
+    }
+
+    div#MainContainer {
+        display: grid;
+        width: 100%;
+        height: 85vh;
+        margin-top: 3rem;
+    }
+
+    section#MainGrid {
+        background-color: #fcff9e;
+        width: 75%;
+        height: 30rem;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        outline-style: solid;
+        outline-color: #000000;
+        outline-width: 0.7rem;
+        position: relative;
+    }
+
+    img#dotdle-png {
+        z-index: 99999;
+        position: absolute;
+        width: 75%;
+        margin: auto;
+        margin-top: -8px;
+        user-drag: none;
+        -webkit-user-drag: none;
+    }
+
+    img#left-square {
+        z-index: 99999;
+        position: absolute;
+        width: 35px;
+        left: calc((-35px / 2) - 0.7rem / 2);
+        top: -21px;
+    }
+
+    img#right-square {
+        z-index: 99999;
+        position: absolute;
+        width: 35px;
+        right: calc((-35px / 2) - 0.7rem / 2);
+        top: -21px;
+    }
+
+    img#leftB-square {
+        z-index: 99999;
+        position: absolute;
+        width: 35px;
+        left: calc((-35px / 2) - 0.7rem / 2);
+        bottom: -21px;
+    }
+
+    img#rightB-square {
+        z-index: 99999;
+        position: absolute;
+        width: 35px;
+        right: calc((-35px / 2) - 0.7rem / 2);
+        bottom: -21px;
+    }
+
+    img#cloudA {
+        z-index: -1;
+        position: absolute;
+        left: -7%;
+        rotate: 60deg;
+        top: 50%;
+    }
+
+    img#cloudB {
+        z-index: -1;
+        position: absolute;
+        rotate: 195deg;
+        width: 10%;
+        top: -5%;
+    }
+
+    img#cloudC {
+        z-index: -1;
+        position: absolute;
+        right: -7%;
+        rotate: 170deg;
+        width: 15%;
+        top: 20%;
+    }
+
+    img#cloudD {
+        z-index: -1;
+        position: absolute;
+        right: 50%;
+        rotate: 320deg;
+        top: 5%;
+        width: 9%;
+    }
+
+    img#cloudE {
+        z-index: -1;
+        position: absolute;
+        right: 8%;
+        rotate: 317deg;
+        top: 60%;
+        width: 11%;
+    }
+
+    img#cloudF {
+        z-index: -1;
+        position: absolute;
+        left: 60%;
+        rotate: 60deg;
+        bottom: 5%;
+        width: 7%;
+    }
+
+
+    section#Game {
+        margin-top: 7rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+
+    #inputForm {
+        padding: 1rem;
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    button {
+        background-color: #FF890D;
+        border-color: #3A3A3C;
+        height: 2.5rem;
+        box-shadow: 6px 6px black;
+    }
+
+    div#newGameSection {
+        width: 1rem;
+    }
+
+    button#newGameButton {
+        width: 3rem;
+        text-align: center;
+        display: grid;
+        align-content: center;
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 6px 6px black;
+    }
+
+    input#InputModel_UserInput {
+        width: 20rem;
+        height: 2.5rem;
+        text-align: center;
+        font-size: large;
+        border-style: solid;
+        border-color: black;
+        font-style: normal;
+        box-shadow: 6px 6px black;
+    }
+
+    div#wordSubmitted {
+        height: 5rem;
+        /* border-style: solid; */
+        /* border-color: black; */
+        width: 31.5rem;
+        font-size: 2rem;
+        font-weight: bold;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        margin-left: 1rem;
+        gap: 1.5rem;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    section#wordsRow {
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: center;
+        align-items: center;
+        flex-direction: row;
+        /* gap: 0.5rem; */
+        /* column-gap: 0.5rem; */
+        width: 22rem;
+        padding: 0.5rem;
+        background-color: white;
+        /* outline-color: black; */
+        /* outline: solid; */
+        border-color: black;
+        border-style: solid;
+        justify-content: space-evenly;
+        box-shadow: 6px 6px black;
+    }
+
+    div#inputExample {
+        /* color: black; */
+        display: grid;
+        background-color: black;
+        width: -webkit-fill-available;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+    }
+
+    div#wordSubmitted span {
+        text-transform: uppercase;
+        padding-left: 1rem;
+        border-style: solid;
+        color: var(--white-color);
+        border-width: medium;
+        border-color: black;
+        padding-right: 1rem;
+        display: inline;
+        font-weight: bold;
+    }
+
+    div#links {
+        margin-top: 1.8rem;
+        display: flex;
+        gap: 1rem;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+
+    a#linksButton {
+        background-color: #FF890D;
+        border-color: #000000;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        height: 2.5rem;
+        color: black;
+        text-decoration: none;
+        border-style: solid;
+        box-shadow: 6px 6px black;
+    }
+
+        a#linksButton:hover {
+            background-color: #04A409;
+            color: white;
+        }
+
+    .verde {
+        background-color: var(--green-color);
+    }
+
+    .amarillo {
+        background-color: var(--yellow-color);
+    }
+
+    .gris {
+        background-color: var(--grey-color);
+    }
+
+</style>

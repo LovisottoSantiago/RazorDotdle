@@ -1,11 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\RazorDotdle",
-    "\\RazorDotdle\\Pages",
-    "\\RazorDotdle\\wwwroot",
-    "\\RazorDotdle\\wwwroot\\data"
+    "\\Models"
   ],
-  "SelectedNode": "\\RazorDotdle\\RazorDotdle.sln",
+  "SelectedNode": "\\RazorDotdle.sln",
   "PreviewInSolutionExplorer": false
 }
