@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Lovidev\\Documents\\GitHub\\RazorDotdle\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4218C815-4649-43B3-979B-F2E31A95CEDB}|RazorDotdle.csproj|c:\\users\\lovidev\\documents\\github\\razordotdle\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{4218C815-4649-43B3-979B-F2E31A95CEDB}|RazorDotdle.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lovidev\\Documents\\GitHub\\RazorDotdle\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4218C815-4649-43B3-979B-F2E31A95CEDB}|RazorDotdle.csproj|c:\\users\\lovidev\\documents\\github\\razordotdle\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4218C815-4649-43B3-979B-F2E31A95CEDB}|RazorDotdle.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lovidev\\Documents\\GitHub\\RazorDotdle\\Pages\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pages\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "README.md",
               "ToolTip": "C:\\Users\\Lovidev\\Documents\\GitHub\\RazorDotdle\\README.md",
               "RelativeToolTip": "README.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2024-11-19T13:49:39.006Z",
               "EditorCaption": ""
@@ -43,8 +43,7 @@
               "RelativeToolTip": "Pages\\Index.cshtml",
               "ViewState": "AgIAAEIBAAAAAAAAAAAcwFsBAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-19T13:49:19.189Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T13:49:19.189Z"
             }
           ]
         }
