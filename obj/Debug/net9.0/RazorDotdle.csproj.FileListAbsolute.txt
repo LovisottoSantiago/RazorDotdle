@@ -212,3 +212,4 @@ C:\Users\Lovidev\Documents\GitHub\RazorDotdle\obj\Debug\net9.0\ref\RazorDotdle.d
 C:\Users\Lovidev\Documents\GitHub\RazorDotdle\obj\Debug\net9.0\compressed\luiib64uh2-yofhilhnog.gz
 C:\Users\Lovidev\Documents\GitHub\RazorDotdle\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\Lovidev\Documents\GitHub\RazorDotdle\obj\Debug\net9.0\compressed\ih8ygged81-u7jcdkxe03.gz
+C:\Users\Lovidev\Documents\GitHub\RazorDotdle\obj\Debug\net9.0\compressed\409q0aeij8-1ts1z78895.gz

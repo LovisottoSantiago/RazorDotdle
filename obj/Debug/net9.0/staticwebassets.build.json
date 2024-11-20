@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FQXQySCKnfFrUtvGFYhd3EjAsxqZ2R94AAqQpZsJAA8=",
+  "Hash": "7N8z2np4uZ9vGfCOnud0k5ftjNC1WKKTwezyTF17RF4=",
   "Source": "RazorDotdle",
   "BasePath": "_content/RazorDotdle",
   "Mode": "Default",
@@ -267,6 +267,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Lovidev\\Documents\\GitHub\\RazorDotdle\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Lovidev\\Documents\\GitHub\\RazorDotdle\\obj\\Debug\\net9.0\\compressed\\409q0aeij8-1ts1z78895.gz",
+      "SourceId": "RazorDotdle",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lovidev\\Documents\\GitHub\\RazorDotdle\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/RazorDotdle",
+      "RelativePath": "data/styles#[.{fingerprint=1ts1z78895}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Lovidev\\Documents\\GitHub\\RazorDotdle\\wwwroot\\data\\styles.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "9yqm70luhh",
+      "Integrity": "8WjAFebBM+s7rusXTnlsPda4dvc8WN6r6mKlZ8Uz0fw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Lovidev\\Documents\\GitHub\\RazorDotdle\\wwwroot\\data\\styles.css"
     },
     {
       "Identity": "C:\\Users\\Lovidev\\Documents\\GitHub\\RazorDotdle\\obj\\Debug\\net9.0\\compressed\\53hazr6seg-d7shbmvgxk.gz",
@@ -1569,6 +1590,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\data\\Square.png"
+    },
+    {
+      "Identity": "C:\\Users\\Lovidev\\Documents\\GitHub\\RazorDotdle\\wwwroot\\data\\styles.css",
+      "SourceId": "RazorDotdle",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lovidev\\Documents\\GitHub\\RazorDotdle\\wwwroot\\",
+      "BasePath": "_content/RazorDotdle",
+      "RelativePath": "data/styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1ts1z78895",
+      "Integrity": "67grdo9+4a2UccBxbev93Z02/C0TnQkUHxcBb01/Chc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\data\\styles.css"
     },
     {
       "Identity": "C:\\Users\\Lovidev\\Documents\\GitHub\\RazorDotdle\\wwwroot\\favicon.ico",
@@ -4011,6 +4053,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-KxgpZlMlIRIP8Hz/RD805hr1I1RatzSfr4oC8J3QhRY="
+        }
+      ]
+    },
+    {
+      "Route": "data/styles.1ts1z78895.css",
+      "AssetFile": "C:\\Users\\Lovidev\\Documents\\GitHub\\RazorDotdle\\obj\\Debug\\net9.0\\compressed\\409q0aeij8-1ts1z78895.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000484027106"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2065"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8WjAFebBM+s7rusXTnlsPda4dvc8WN6r6mKlZ8Uz0fw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Nov 2024 22:05:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"67grdo9+4a2UccBxbev93Z02/C0TnQkUHxcBb01/Chc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1ts1z78895"
+        },
+        {
+          "Name": "label",
+          "Value": "data/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-67grdo9+4a2UccBxbev93Z02/C0TnQkUHxcBb01/Chc="
+        }
+      ]
+    },
+    {
+      "Route": "data/styles.1ts1z78895.css",
+      "AssetFile": "C:\\Users\\Lovidev\\Documents\\GitHub\\RazorDotdle\\wwwroot\\data\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9150"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"67grdo9+4a2UccBxbev93Z02/C0TnQkUHxcBb01/Chc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Nov 2024 22:05:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1ts1z78895"
+        },
+        {
+          "Name": "label",
+          "Value": "data/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-67grdo9+4a2UccBxbev93Z02/C0TnQkUHxcBb01/Chc="
+        }
+      ]
+    },
+    {
+      "Route": "data/styles.1ts1z78895.css.gz",
+      "AssetFile": "C:\\Users\\Lovidev\\Documents\\GitHub\\RazorDotdle\\obj\\Debug\\net9.0\\compressed\\409q0aeij8-1ts1z78895.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2065"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8WjAFebBM+s7rusXTnlsPda4dvc8WN6r6mKlZ8Uz0fw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Nov 2024 22:05:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1ts1z78895"
+        },
+        {
+          "Name": "label",
+          "Value": "data/styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8WjAFebBM+s7rusXTnlsPda4dvc8WN6r6mKlZ8Uz0fw="
+        }
+      ]
+    },
+    {
+      "Route": "data/styles.css",
+      "AssetFile": "C:\\Users\\Lovidev\\Documents\\GitHub\\RazorDotdle\\obj\\Debug\\net9.0\\compressed\\409q0aeij8-1ts1z78895.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000484027106"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2065"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8WjAFebBM+s7rusXTnlsPda4dvc8WN6r6mKlZ8Uz0fw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Nov 2024 22:05:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"67grdo9+4a2UccBxbev93Z02/C0TnQkUHxcBb01/Chc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-67grdo9+4a2UccBxbev93Z02/C0TnQkUHxcBb01/Chc="
+        }
+      ]
+    },
+    {
+      "Route": "data/styles.css",
+      "AssetFile": "C:\\Users\\Lovidev\\Documents\\GitHub\\RazorDotdle\\wwwroot\\data\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9150"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"67grdo9+4a2UccBxbev93Z02/C0TnQkUHxcBb01/Chc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Nov 2024 22:05:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-67grdo9+4a2UccBxbev93Z02/C0TnQkUHxcBb01/Chc="
+        }
+      ]
+    },
+    {
+      "Route": "data/styles.css.gz",
+      "AssetFile": "C:\\Users\\Lovidev\\Documents\\GitHub\\RazorDotdle\\obj\\Debug\\net9.0\\compressed\\409q0aeij8-1ts1z78895.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2065"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8WjAFebBM+s7rusXTnlsPda4dvc8WN6r6mKlZ8Uz0fw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Nov 2024 22:05:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8WjAFebBM+s7rusXTnlsPda4dvc8WN6r6mKlZ8Uz0fw="
         }
       ]
     },

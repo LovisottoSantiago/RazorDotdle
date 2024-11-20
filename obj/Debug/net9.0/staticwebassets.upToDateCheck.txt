@@ -10,6 +10,7 @@ C:\Users\Lovidev\Documents\GitHub\RazorDotdle\wwwroot\lib\bootstrap\dist\js\boot
 C:\Users\Lovidev\Documents\GitHub\RazorDotdle\wwwroot\lib\bootstrap\dist\js\bootstrap.js
 C:\Users\Lovidev\Documents\GitHub\RazorDotdle\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
 C:\Users\Lovidev\Documents\GitHub\RazorDotdle\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+C:\Users\Lovidev\Documents\GitHub\RazorDotdle\wwwroot\data\styles.css
 C:\Users\Lovidev\Documents\GitHub\RazorDotdle\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
 C:\Users\Lovidev\Documents\GitHub\RazorDotdle\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
 C:\Users\Lovidev\Documents\GitHub\RazorDotdle\wwwroot\lib\bootstrap\dist\css\bootstrap.css
@@ -68,6 +69,7 @@ wwwroot\data\5-words-ES.json
 wwwroot\data\Cloud.png
 wwwroot\data\Dotdle.net.png
 wwwroot\data\Square.png
+wwwroot\data\styles.css
 wwwroot\favicon.ico
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

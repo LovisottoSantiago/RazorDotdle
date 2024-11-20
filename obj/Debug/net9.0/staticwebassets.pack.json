@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\data\\Square.png"
     },
     {
+      "Id": "C:\\Users\\Lovidev\\Documents\\GitHub\\RazorDotdle\\wwwroot\\data\\styles.css",
+      "PackagePath": "staticwebassets\\data\\styles.css"
+    },
+    {
       "Id": "C:\\Users\\Lovidev\\Documents\\GitHub\\RazorDotdle\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
