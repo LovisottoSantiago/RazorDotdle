@@ -43,6 +43,7 @@ namespace RazorDotdle.Pages
         public string LinkGithub { get; set; }
         public string LinkPortfolio { get; set; }
         public string LinkCards { get; set; }
+        public string EditCards { get; set; }
 
         public void OnGet() {
             if (string.IsNullOrEmpty(Word)) {
@@ -160,6 +161,7 @@ namespace RazorDotdle.Pages
                 LinkGithub = "Github";
                 LinkPortfolio = "My Portfolio";
                 LinkCards = "Add words";
+                EditCards = "https://github.com/LovisottoSantiago/RazorDotdle/edit/main/wwwroot/data/5-words-ENG.json";
             }
             else // español
             {
@@ -170,6 +172,7 @@ namespace RazorDotdle.Pages
                 LinkGithub = "Github";
                 LinkPortfolio = "Mi Portafolio";
                 LinkCards = "Agregá más";
+                EditCards = "https://github.com/LovisottoSantiago/RazorDotdle/edit/main/wwwroot/data/5-words-ES.json";
             }
         }
 
