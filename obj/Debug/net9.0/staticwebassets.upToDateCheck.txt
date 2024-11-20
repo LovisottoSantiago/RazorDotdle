@@ -32,6 +32,7 @@ C:\Users\Lovidev\Documents\GitHub\RazorDotdle\wwwroot\lib\bootstrap\dist\css\boo
 C:\Users\Lovidev\Documents\GitHub\RazorDotdle\wwwroot\lib\jquery-validation\dist\additional-methods.js
 C:\Users\Lovidev\Documents\GitHub\RazorDotdle\wwwroot\lib\jquery-validation\dist\jquery.validate.js
 C:\Users\Lovidev\Documents\GitHub\RazorDotdle\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+C:\Users\Lovidev\Documents\GitHub\RazorDotdle\wwwroot\data\5-words-ES.json
 C:\Users\Lovidev\Documents\GitHub\RazorDotdle\wwwroot\lib\jquery\dist\jquery.min.map
 C:\Users\Lovidev\Documents\GitHub\RazorDotdle\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
 C:\Users\Lovidev\Documents\GitHub\RazorDotdle\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
@@ -43,6 +44,7 @@ C:\Users\Lovidev\Documents\GitHub\RazorDotdle\wwwroot\lib\bootstrap\dist\css\boo
 C:\Users\Lovidev\Documents\GitHub\RazorDotdle\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
 C:\Users\Lovidev\Documents\GitHub\RazorDotdle\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
 C:\Users\Lovidev\Documents\GitHub\RazorDotdle\wwwroot\lib\jquery\dist\jquery.min.js
+C:\Users\Lovidev\Documents\GitHub\RazorDotdle\wwwroot\data\5-words-ENG.json
 C:\Users\Lovidev\Documents\GitHub\RazorDotdle\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
 C:\Users\Lovidev\Documents\GitHub\RazorDotdle\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
 C:\Users\Lovidev\Documents\GitHub\RazorDotdle\wwwroot\lib\jquery\dist\jquery.slim.min.map
@@ -58,11 +60,11 @@ C:\Users\Lovidev\Documents\GitHub\RazorDotdle\wwwroot\lib\bootstrap\dist\css\boo
 C:\Users\Lovidev\Documents\GitHub\RazorDotdle\wwwroot\lib\jquery-validation\LICENSE.md
 C:\Users\Lovidev\Documents\GitHub\RazorDotdle\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
 C:\Users\Lovidev\Documents\GitHub\RazorDotdle\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
-C:\Users\Lovidev\Documents\GitHub\RazorDotdle\wwwroot\data\5-words.json
 C:\Users\Lovidev\Documents\GitHub\RazorDotdle\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
 C:\Users\Lovidev\Documents\GitHub\RazorDotdle\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
 wwwroot\css\site.css
-wwwroot\data\5-words.json
+wwwroot\data\5-words-ENG.json
+wwwroot\data\5-words-ES.json
 wwwroot\data\Cloud.png
 wwwroot\data\Dotdle.net.png
 wwwroot\data\Square.png

@@ -1,0 +1,207 @@
+[
+  {
+    "word": "proxy",
+    "description": "Intermediario para acceder a redes externas.",
+    "topic": "informática"
+  },
+  {
+    "word": "tenis",
+    "description": "Deporte con raquetas y pelota pequeña.",
+    "topic": "deportes"
+  },
+  {
+    "word": "matiz",
+    "description": "Diferencia sutil en tono o significado.",
+    "topic": "filosofía"
+  },
+  {
+    "word": "glifo",
+    "description": "Símbolo gráfico usado en escritura antigua.",
+    "topic": "historia"
+  },
+  {
+    "word": "llano",
+    "description": "Terreno plano, sin montañas o elevaciones.",
+    "topic": "geografía"
+  },
+  {
+    "word": "bytes",
+    "description": "Unidad básica de datos digitales.",
+    "topic": "informática"
+  },
+  {
+    "word": "rugby",
+    "description": "Deporte de contacto con balón ovalado.",
+    "topic": "deportes"
+  },
+  {
+    "word": "axiom",
+    "description": "Proposición lógica aceptada sin pruebas.",
+    "topic": "filosofía"
+  },
+  {
+    "word": "feudo",
+    "description": "Territorio controlado en régimen feudal.",
+    "topic": "historia"
+  },
+  {
+    "word": "delta",
+    "description": "Depósito triangular de sedimentos fluviales.",
+    "topic": "geografía"
+  },
+  {
+    "word": "tabla",
+    "description": "Estructura de datos ordenada en celdas.",
+    "topic": "informática"
+  },
+  {
+    "word": "esquí",
+    "description": "Deporte en nieve con tablas deslizantes.",
+    "topic": "deportes"
+  },
+  {
+    "word": "primo",
+    "description": "Número divisible solo por uno y sí mismo.",
+    "topic": "matemáticas"
+  },
+  {
+    "word": "dogma",
+    "description": "Principio aceptado como incuestionable.",
+    "topic": "filosofía"
+  },
+  {
+    "word": "reyes",
+    "description": "Monarcas que gobiernan en épocas específicas.",
+    "topic": "historia"
+  },
+  {
+    "word": "sismo",
+    "description": "Movimiento vibratorio de la corteza terrestre.",
+    "topic": "geografía"
+  },
+  {
+    "word": "cache",
+    "description": "Memoria de acceso rápido para datos temporales.",
+    "topic": "informática"
+  },
+  {
+    "word": "remar",
+    "description": "Actividad de propulsión en agua con remos.",
+    "topic": "deportes"
+  },
+  {
+    "word": "rango",
+    "description": "Límite superior e inferior en datos.",
+    "topic": "matemáticas"
+  },
+  {
+    "word": "razón",
+    "description": "Facultad de pensar y reflexionar lógicamente.",
+    "topic": "filosofía"
+  },
+  {
+    "word": "época",
+    "description": "Periodo histórico con características particulares.",
+    "topic": "historia"
+  },
+  {
+    "word": "fiord",
+    "description": "Valle glaciar sumergido por el mar.",
+    "topic": "geografía"
+  },
+  {
+    "word": "clave",
+    "description": "Código o palabra para acceso restringido.",
+    "topic": "informática"
+  },
+  {
+    "word": "golpe",
+    "description": "Movimiento brusco para golpear algo.",
+    "topic": "deportes"
+  },
+  {
+    "word": "seres",
+    "description": "Entidades con existencia o vida.",
+    "topic": "filosofía"
+  },
+  {
+    "word": "reino",
+    "description": "Territorio gobernado por un monarca.",
+    "topic": "historia"
+  },
+  {
+    "word": "islas",
+    "description": "Territorio rodeado completamente por agua.",
+    "topic": "geografía"
+  },
+  {
+    "word": "motor",
+    "description": "Dispositivo que transforma energía en movimiento.",
+    "topic": "informática"
+  },
+  {
+    "word": "boxeo",
+    "description": "Deporte de combate con puños protegidos.",
+    "topic": "deportes"
+  },
+  {
+    "word": "línea",
+    "description": "Concepto geométrico de extensión infinita.",
+    "topic": "matemáticas"
+  },
+  {
+    "word": "moral",
+    "description": "Relativo al bien y al mal.",
+    "topic": "filosofía"
+  },
+  {
+    "word": "calif",
+    "description": "Título político-religioso en el islam medieval.",
+    "topic": "historia"
+  },
+  {
+    "word": "bosque",
+    "description": "Extensión de terreno con árboles densos.",
+    "topic": "geografía"
+  },
+  {
+    "word": "robot",
+    "description": "Máquina capaz de realizar tareas autónomas.",
+    "topic": "informática"
+  },
+  {
+    "word": "balón",
+    "description": "Esfera usada en deportes y juegos.",
+    "topic": "deportes"
+  },
+  {
+    "word": "ideas",
+    "description": "Conceptos abstractos generados por la mente.",
+    "topic": "filosofía"
+  },
+  {
+    "word": "casta",
+    "description": "Clase social en sistemas jerárquicos históricos.",
+    "topic": "historia"
+  },
+  {
+    "word": "volca",
+    "description": "Abertura terrestre que expulsa magma.",
+    "topic": "geografía"
+  },
+  {
+    "word": "pista",
+    "description": "Espacio preparado para deportes específicos.",
+    "topic": "deportes"
+  },
+  {
+    "word": "karma",
+    "description": "Concepto filosófico de causa y efecto.",
+    "topic": "filosofía"
+  },
+  {
+    "word": "zarza",
+    "description": "Arbusto espinoso mencionado en historias bíblicas.",
+    "topic": "historia"
+  }
+]

@@ -2,9 +2,12 @@
 @model IndexModel
 @{
     <head>
-        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet' />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css" />
     </head>
+
+
 
     <img id="cloudA" src="~/data/Cloud.png" alt="CloudA">
     <img id="cloudB" src="~/data/Cloud.png" alt="CloudB">
@@ -32,11 +35,21 @@
 
                 <form method="post" id="inputForm">
                     <div>
-                        <input type="text" asp-for="InputModel.UserInput" class="input-field" maxlength="5" placeholder="Enter your word" autocomplete="off" />
+                        <input type="text" asp-for="InputModel.UserInput" class="input-field" maxlength="5" placeholder="@Model.Placeholder" autocomplete="off" />
                     </div>
+
+
+                    <input type="hidden" id="languageSwitch" asp-for="langSwitch" />
+                    <div class="language-switcher">
+                        <button type="button" class="lang-btn" onclick="setLanguage('us')"><span class="fi fi-us"></span></button>
+                        <button type="button" class="lang-btn" onclick="setLanguage('es')"><span class="fi fi-ar"></span></button>
+                    </div>
+
+
                     <input type="hidden" asp-for="Word" />
                     <input type="hidden" asp-for="Description" />
-                    <button type="submit" name="action" value="submit">Enter</button>
+                    <input type="hidden" asp-for="Topic" />
+                    <button type="submit" name="action" class="enter" value="submit">@Model.EnterButton</button>
                 </form>
 
 
@@ -54,25 +67,28 @@
                         else
                         {
                             <div id="inputExample">
-                                <span class="letter">Your answer</span>
+                                <span class="letter">@Model.ExampleAnswer</span>
                             </div>
                         }
 
                     </section>
 
                     <div id="newGameSection">
-                        <button type="button" id="newGameButton">↺</button>
+                        <button type="button" id="newGameButton">@Model.NewGameButton</button>
                     </div>
                 </div>
 
             </section>
 
             <div id="links">
-                <a id="linksButton" href="https://github.com/LovisottoSantiago/Dotdle" target="_blank">GitHub <i class="fa fa-github"></i></a>
-                <a id="linksButton" href="https://github.com/LovisottoSantiago" target="_blank">My Portfolio <i class="fa fa-briefcase"></i></a>
-                <a id="linksButton" href="https://github.com/LovisottoSantiago/Dotdle/blob/main/RazorDotdle/wwwroot/data/5-words.json" target="_blank">Add words <i class="fa fa-pencil-square-o"></i></a>
+                <a id="linksButton" class="link1" href="https://github.com/LovisottoSantiago/Dotdle" target="_blank">@Model.LinkGithub <i class="fa fa-github"></i></a>
+                <a id="linksButton" class="link2"  href="https://github.com/LovisottoSantiago" target="_blank">@Model.LinkPortfolio <i class="fa fa-briefcase"></i></a>
+                <a id="linksButton" class="link3" href="https://github.com/LovisottoSantiago/Dotdle/blob/main/RazorDotdle/wwwroot/data/5-words.json" target="_blank">@Model.LinkCards <i class="fa fa-pencil-square-o"></i></a>
             </div>
 
+            <div id="topics">
+                <p>@Model.Topic</p>
+            </div>
         </section>
 
     </div>
@@ -98,6 +114,18 @@
         });
 
 
+        function setLanguage(lang) {
+            const languageSwitch = document.getElementById('languageSwitch');
+
+            if (lang === 'us') {
+                languageSwitch.value = 'true'; // true = english
+
+            } else if (lang === 'es') {
+                languageSwitch.value = 'false'; // false = español
+            }
+
+            document.getElementById('newGameButton').click();
+        }
 
     </script>
 }
@@ -121,6 +149,7 @@
         max-width: 100%;
         overflow-x: hidden;
         overflow-y: hidden;
+        user-select: none;
     }
 
     h1, h2, p {
@@ -130,6 +159,21 @@
     hr#hrSeparator {
         width: 100%;
         border: 1px solid black;
+    }
+
+    form input:focus {
+        outline: none;
+    }
+
+    .language-switcher {
+        position: fixed;
+        display: flex;
+        gap: 1rem;
+        top: 2%;
+        right: 1.5%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
     }
 
     div#wordDescription {
@@ -395,6 +439,27 @@
             background-color: #04A409;
             color: white;
         }
+
+    div#topics {
+        z-index: 1;
+        position: absolute;
+        /* margin-left: 31.5rem; */
+        background-color: #ffffff;
+        rotate: 345deg;
+        outline-style: solid;
+        display: flex;
+        border-radius: 0.5rem;
+        text-align: center;
+        width: 13.5rem;
+        box-shadow: 7px 7px #000000;
+        height: 2.5rem;
+        outline-color: #000000;
+        top: 92%;
+        left: 68%;
+        align-content: center;
+        justify-content: center;
+        flex-direction: row;
+    }
 
     .verde {
         background-color: var(--green-color);

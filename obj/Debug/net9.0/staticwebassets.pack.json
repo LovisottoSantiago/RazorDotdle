@@ -9,8 +9,12 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\Lovidev\\Documents\\GitHub\\RazorDotdle\\wwwroot\\data\\5-words.json",
-      "PackagePath": "staticwebassets\\data\\5-words.json"
+      "Id": "C:\\Users\\Lovidev\\Documents\\GitHub\\RazorDotdle\\wwwroot\\data\\5-words-ENG.json",
+      "PackagePath": "staticwebassets\\data\\5-words-ENG.json"
+    },
+    {
+      "Id": "C:\\Users\\Lovidev\\Documents\\GitHub\\RazorDotdle\\wwwroot\\data\\5-words-ES.json",
+      "PackagePath": "staticwebassets\\data\\5-words-ES.json"
     },
     {
       "Id": "C:\\Users\\Lovidev\\Documents\\GitHub\\RazorDotdle\\wwwroot\\data\\Cloud.png",

@@ -9,5 +9,9 @@
             UserLifes = 4;
         }
 
+        public void decreaseLife() {
+            UserLifes--;
+        }
+
     }
 }

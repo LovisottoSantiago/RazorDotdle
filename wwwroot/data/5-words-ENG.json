@@ -1,0 +1,252 @@
+[
+  {
+    "word": "quark",
+    "description": "Fundamental particle in quantum physics theory.",
+    "topic": "computer science"
+  },
+  {
+    "word": "lemma",
+    "description": "A subsidiary or intermediate theorem in math.",
+    "topic": "math"
+  },
+  {
+    "word": "zonal",
+    "description": "Relating to a specific zone or area.",
+    "topic": "geography"
+  },
+  {
+    "word": "axiom",
+    "description": "A statement accepted as true without proof.",
+    "topic": "philosophy"
+  },
+  {
+    "word": "crypt",
+    "description": "Underground room or vault beneath a church.",
+    "topic": "history"
+  },
+  {
+    "word": "tuple",
+    "description": "An ordered list of elements in programming.",
+    "topic": "computer science"
+  },
+  {
+    "word": "delta",
+    "description": "Landform at the mouth of a river.",
+    "topic": "geography"
+  },
+  {
+    "word": "prowl",
+    "description": "To move stealthily or secretively.",
+    "topic": "sports"
+  },
+  {
+    "word": "chaos",
+    "description": "Complete disorder and confusion in a system.",
+    "topic": "philosophy"
+  },
+  {
+    "word": "proof",
+    "description": "Logical argument demonstrating truth in math.",
+    "topic": "math"
+  },
+  {
+    "word": "bytes",
+    "description": "Units of digital information in computing.",
+    "topic": "computer science"
+  },
+  {
+    "word": "arena",
+    "description": "Large venue for sports and entertainment events.",
+    "topic": "sports"
+  },
+  {
+    "word": "plato",
+    "description": "Ancient philosopher known for works on ethics.",
+    "topic": "philosophy"
+  },
+  {
+    "word": "epoch",
+    "description": "A period marked by significant events.",
+    "topic": "history"
+  },
+  {
+    "word": "graph",
+    "description": "Diagram representing data in math.",
+    "topic": "math"
+  },
+  {
+    "word": "cache",
+    "description": "Hardware or software component storing data.",
+    "topic": "computer science"
+  },
+  {
+    "word": "route",
+    "description": "A path or course taken from one place to another.",
+    "topic": "geography"
+  },
+  {
+    "word": "squad",
+    "description": "A small group of players in a team.",
+    "topic": "sports"
+  },
+  {
+    "word": "stoic",
+    "description": "Person who can endure pain without showing emotions.",
+    "topic": "philosophy"
+  },
+  {
+    "word": "siege",
+    "description": "Military blockade of a city or fortress.",
+    "topic": "history"
+  },
+  {
+    "word": "cubic",
+    "description": "Relating to a cube or three-dimensional space.",
+    "topic": "math"
+  },
+  {
+    "word": "token",
+    "description": "Digital representation used in blockchain technology.",
+    "topic": "computer science"
+  },
+  {
+    "word": "maple",
+    "description": "Type of tree known for its syrup.",
+    "topic": "geography"
+  },
+  {
+    "word": "drill",
+    "description": "Exercise to practice skills in sports.",
+    "topic": "sports"
+  },
+  {
+    "word": "ethic",
+    "description": "Moral principles governing behavior.",
+    "topic": "philosophy"
+  },
+  {
+    "word": "relic",
+    "description": "An object surviving from an earlier time.",
+    "topic": "history"
+  },
+  {
+    "word": "angle",
+    "description": "Figure formed by two rays meeting at a point.",
+    "topic": "math"
+  },
+  {
+    "word": "array",
+    "description": "Data structure consisting of a collection of elements.",
+    "topic": "computer science"
+  },
+  {
+    "word": "plumb",
+    "description": "Vertical measurement in depth or height.",
+    "topic": "geography"
+  },
+  {
+    "word": "fence",
+    "description": "Barrier enclosing or bordering a field.",
+    "topic": "sports"
+  },
+  {
+    "word": "credo",
+    "description": "Statement of beliefs or aims.",
+    "topic": "philosophy"
+  },
+  {
+    "word": "titan",
+    "description": "Powerful being from Greek mythology.",
+    "topic": "history"
+  },
+  {
+    "word": "ratio",
+    "description": "Relationship between two quantities in math.",
+    "topic": "math"
+  },
+  {
+    "word": "queue",
+    "description": "A line of items waiting for processing.",
+    "topic": "computer science"
+  },
+  {
+    "word": "oasis",
+    "description": "Fertile area in a desert with water.",
+    "topic": "geography"
+  },
+  {
+    "word": "serve",
+    "description": "To hit the ball to start play in tennis.",
+    "topic": "sports"
+  },
+  {
+    "word": "maxim",
+    "description": "A short, pithy statement expressing a general truth.",
+    "topic": "philosophy"
+  },
+  {
+    "word": "treat",
+    "description": "An agreement between two or more parties.",
+    "topic": "history"
+  },
+  {
+    "word": "slice",
+    "description": "Part of a whole, often in math or data.",
+    "topic": "math"
+  },
+  {
+    "word": "virus",
+    "description": "Malicious software designed to harm or exploit systems.",
+    "topic": "computer science"
+  },
+  {
+    "word": "ridge",
+    "description": "A long, narrow elevation of land.",
+    "topic": "geography"
+  },
+  {
+    "word": "swing",
+    "description": "A motion used to hit the ball in golf.",
+    "topic": "sports"
+  },
+  {
+    "word": "tenet",
+    "description": "Principle or belief held to be true.",
+    "topic": "philosophy"
+  },
+  {
+    "word": "crown",
+    "description": "Head adornment worn by royalty.",
+    "topic": "history"
+  },
+  {
+    "word": "hyper",
+    "description": "Prefix indicating over, beyond, or excessive.",
+    "topic": "math"
+  },
+  {
+    "word": "botch",
+    "description": "To carry out a task badly or carelessly.",
+    "topic": "computer science"
+  },
+  {
+    "word": "delta",
+    "description": "Landform created by sediment deposits at river mouths.",
+    "topic": "geography"
+  },
+  {
+    "word": "lapse",
+    "description": "Temporary failure or slip, often in sports.",
+    "topic": "sports"
+  },
+  {
+    "word": "dogma",
+    "description": "Established belief or doctrine held by a group.",
+    "topic": "philosophy"
+  },
+  {
+    "word": "edict",
+    "description": "Official order or proclamation issued by authority.",
+    "topic": "history"
+  }
+]
