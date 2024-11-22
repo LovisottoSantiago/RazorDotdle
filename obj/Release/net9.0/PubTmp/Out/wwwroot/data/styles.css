@@ -309,6 +309,11 @@ a#linksButton {
         color: white;
     }
 
+    button:hover {
+        background-color: #04A409;
+        color: white;
+    }
+
 div#topics {
     z-index: 1;
     position: absolute;
@@ -354,7 +359,6 @@ div#topics {
     section#MainGrid {
         width: 90%; 
         height: auto;
-        margin-top: 3rem;
     }
 
     img#dotdle-png {
@@ -376,6 +380,8 @@ div#topics {
     div#MainContainer {
         height: auto;
         padding: 1rem 0.5rem;
+        margin-top: 2rem;
+        padding-bottom: 2rem;
     }
 
     div#wordDescription {

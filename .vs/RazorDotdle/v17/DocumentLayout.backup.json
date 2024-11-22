@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Lovidev\\Documents\\GitHub\\RazorDotdle\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4218C815-4649-43B3-979B-F2E31A95CEDB}|RazorDotdle.csproj|c:\\users\\lovidev\\documents\\github\\razordotdle\\wwwroot\\data\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4218C815-4649-43B3-979B-F2E31A95CEDB}|RazorDotdle.csproj|solutionrelative:wwwroot\\data\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4218C815-4649-43B3-979B-F2E31A95CEDB}|RazorDotdle.csproj|c:\\users\\lovidev\\documents\\github\\razordotdle\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4218C815-4649-43B3-979B-F2E31A95CEDB}|RazorDotdle.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -22,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\Lovidev\\Documents\\GitHub\\RazorDotdle\\wwwroot\\data\\styles.css",
+              "RelativeDocumentMoniker": "wwwroot\\data\\styles.css",
+              "ToolTip": "C:\\Users\\Lovidev\\Documents\\GitHub\\RazorDotdle\\wwwroot\\data\\styles.css",
+              "RelativeToolTip": "wwwroot\\data\\styles.css",
+              "ViewState": "AgIAACkBAAAAAAAAAAAAADIBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-21T02:49:34.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "InputModel.cs",
               "DocumentMoniker": "C:\\Users\\Lovidev\\Documents\\GitHub\\RazorDotdle\\Models\\InputModel.cs",
               "RelativeDocumentMoniker": "Models\\InputModel.cs",
@@ -34,12 +51,11 @@
               "RelativeToolTip": "Models\\InputModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T00:39:45.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T00:39:45.453Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Lovidev\\Documents\\GitHub\\RazorDotdle\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Index.cshtml",
@@ -47,21 +63,19 @@
               "RelativeToolTip": "Pages\\Index.cshtml",
               "ViewState": "AgIAAHUAAAAAAAAAAAAAAIIAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-20T23:36:28.102Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T23:36:28.102Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Lovidev\\Documents\\GitHub\\RazorDotdle\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
               "ToolTip": "C:\\Users\\Lovidev\\Documents\\GitHub\\RazorDotdle\\Pages\\Index.cshtml.cs",
               "RelativeToolTip": "Pages\\Index.cshtml.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAA5wEYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAswEYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T22:06:30.026Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T22:06:30.026Z"
             }
           ]
         }

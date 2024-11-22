@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "wwwroot\\data\\styles.css",
               "ToolTip": "C:\\Users\\Lovidev\\Documents\\GitHub\\RazorDotdle\\wwwroot\\data\\styles.css",
               "RelativeToolTip": "wwwroot\\data\\styles.css",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACkBAAAAAAAAAAAAADIBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-11-21T02:49:34.082Z",
               "EditorCaption": ""
@@ -63,8 +63,7 @@
               "RelativeToolTip": "Pages\\Index.cshtml",
               "ViewState": "AgIAAHUAAAAAAAAAAAAAAIIAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-20T23:36:28.102Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T23:36:28.102Z"
             },
             {
               "$type": "Document",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "Pages\\Index.cshtml.cs",
               "ViewState": "AgIAAFUAAAAAAAAAAAAswEYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T22:06:30.026Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T22:06:30.026Z"
             }
           ]
         }
