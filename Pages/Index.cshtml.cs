@@ -62,7 +62,7 @@ namespace RazorDotdle.Pages
                     return;
                 }
 
-                Input = InputModel.UserInput;
+                Input = InputModel.UserInput.ToLower();
 
                 if (Input.Length == Word.Length && InputModel.UserLifes > 0) {
                     try {
